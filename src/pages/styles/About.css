@@ -1,0 +1,64 @@
+.aboutContainer {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10%;
+}
+.ck {
+    border-radius: 10px;
+    width: 45%;
+    height: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.text {
+    width: 45%;
+}
+
+.imgContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.emailContainer {
+    margin-top: 0;
+    margin-right: 10px;
+    height: 20px;
+    width: 27px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg');
+    background-size: cover;
+    filter: grayscale(100%);
+    transition: filter 0.2s ease-in-out;
+}
+
+.emailContainer:hover {
+    filter: grayscale(0);
+}
+
+.linkedinContainer {
+    margin-top: 0;
+    height: 20px;
+    width: 20px;
+    background-image: url('https://www.anabolio.com/_assets/v10/d67e068e3e6236f0aba43379502ddf6b7641528f.svg');
+    background-size: cover;
+    transition: background-image 0.2s ease-in-out;
+    margin-right: 10px;
+}
+
+.linkedinContainer:hover {
+    background-image: url('https://www.anabolio.com/_assets/v10/5116c5c7bc63ec75ed257f6e61f0e953104f6354.svg');
+}
+
+.githubContainer {
+    margin-top: 0;
+    height: 22px;
+    width: 22px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg');
+    background-size: cover;
+    filter: opacity(0.5);
+    transition: filter 0.2s ease-in-out;
+}
+
+.githubContainer:hover {
+    filter: none;
+}

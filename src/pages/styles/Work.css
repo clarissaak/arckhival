@@ -1,0 +1,120 @@
+.workContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.intro {
+    width: 60%;
+    margin-right: auto;
+}
+
+.intro h1 {
+    font-style: normal;
+    font-size: 100px;
+    margin-bottom: 0px;
+    margin-top: 5%;
+}
+
+h1 span.italic {
+    font-style: italic;
+}
+
+.intro p {
+    width: 80%;
+    font-size: 20px;
+}
+
+.ck {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    width: 35%;
+    height: 30%;
+    gap: 15px;
+}
+
+.img {
+    width: auto;
+    height: 210px;
+    border-radius: 10px;
+}
+
+.text {
+    margin-right: 0%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.text p {
+    width: 80%;
+}
+
+.text p span.bold {
+    font-weight: bold;
+}
+
+.imgContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.linkedinContainer {
+    margin-top: 0;
+    height: 20px;
+    width: 20px;
+    background-image: url('https://www.anabolio.com/_assets/v10/d67e068e3e6236f0aba43379502ddf6b7641528f.svg');
+    background-size: cover;
+    transition: background-image 0.2s ease-in-out;
+    margin-right: 10px;
+}
+
+.linkedinContainer:hover {
+    background-image: url('https://www.anabolio.com/_assets/v10/5116c5c7bc63ec75ed257f6e61f0e953104f6354.svg');
+}
+
+.githubContainer {
+    margin-top: 0;
+    height: 22px;
+    width: 22px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg');
+    background-size: cover;
+    filter: opacity(0.5);
+    transition: filter 0.2s ease-in-out;
+}
+
+.githubContainer:hover {
+    filter: none;
+}
+
+
+@media (max-width: 768px) {
+    .homeContainer {
+        flex-direction: column;
+    }
+    .intro {
+        width: 100%;
+    }
+
+    .ck {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .homeContainer {
+        padding: 10px;
+    }
+    .intro h1 {
+        font-size: 75px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+
+
