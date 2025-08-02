@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Work from './pages/Work.js';
 import About from './pages/About.js';
@@ -9,7 +8,7 @@ function App() {
     <Router>
       <div className='App'>
         <div className="header">
-          <NavLink to='/' className='homeLink'>arckhival</NavLink>
+          <NavLink to='/' className='homeLink'>ar<span className="initials">ck</span>hival</NavLink>
           <div className='navBar'>
             <NavLink to='/' className={({ isActive }) => isActive ? 'active' : ''}>Work</NavLink>
             <NavLink to='/about' className={({ isActive }) => isActive ? 'active' : ''}>About</NavLink>

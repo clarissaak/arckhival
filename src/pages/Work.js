@@ -4,7 +4,7 @@ const Work = () => {
     return (
     <div className="workContainer">
         <div className='intro'>
-            <h1>ar<span className="italic">ck</span>hival</h1>
+            <h1>ar<span className="initials">ck</span>hival</h1>
             <p>is an archive of all of my previous works as a student at the Georgia Institute of Technology.
                 Arckhival primarily showcases my experience with Figma, Computer Graphics, and UI Software.</p>
         </div>
@@ -15,10 +15,10 @@ const Work = () => {
             <p>I'm <span className="bold">Clarissa Kristanto</span> a recent graduate from Georgia Tech with
             a bachelor's degree in Computer Science.</p>
             <div className='imgContainer'>
-                <a href='https://linkedin.com/in/clarissa-kristanto/' target='_blank'>
+                <a href='https://linkedin.com/in/clarissa-kristanto/' target='_blank' rel="noreferrer">
                     <div className="linkedinContainer"/>
                 </a>
-                <a href='https://github.com/clarissaak' target='_blank'>
+                <a href='https://github.com/clarissaak' target='_blank' rel="noreferrer">
                     <div className="githubContainer"/>
                 </a>
             </div>
