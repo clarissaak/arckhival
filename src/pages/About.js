@@ -5,6 +5,7 @@ const About = () => {
     const titleRef = useRef(null);
 
     useEffect(() => {
+      // typewriter effect for about
         let name = "hello! i'm clarissa";
         let index = 0;
         let timeoutId;

@@ -1,0 +1,127 @@
+.homeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.intro {
+    width: 60%;
+    margin-right: auto;
+}
+
+.intro h1 {
+    font-style: normal;
+    font-size: 100px;
+    margin-bottom: 0px;
+    margin-top: 5%;
+}
+
+.intro h1 span.initials {
+    font-style: italic;
+    background-image: url('../../assets/halftone.svg');
+    color: transparent;
+    background-size: 100% 100%;
+    background-clip: text; 
+    -webkit-text-stroke: 0.5px black;
+}
+
+.intro p {
+    width: 80%;
+    font-size: 20px;
+}
+
+.ck {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    width: 35%;
+    height: 30%;
+    gap: 20px;
+}
+
+.img {
+    width: auto;
+    height: 210px;
+    border-radius: 10px;
+}
+
+.text {
+    margin-right: 0%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.text p {
+    width: 80%;
+}
+
+.text p span.bold {
+    font-weight: bold;
+}
+
+.imgContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.linkedinContainer {
+    margin-top: 0;
+    height: 20px;
+    width: 20px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/f4/Linked-in-alt.svg');
+    background-size: cover;
+    transition: filter 0.2s ease-in-out;
+    margin-right: 10px;
+    filter: grayscale(100%)
+}
+
+.linkedinContainer:hover {
+    filter: grayscale(0);
+}
+
+.githubContainer {
+    margin-top: 0;
+    height: 22px;
+    width: 22px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg');
+    background-size: cover;
+    filter: opacity(0.65);
+    transition: filter 0.2s ease-in-out;
+}
+
+.githubContainer:hover {
+    filter: none;
+}
+
+
+@media (max-width: 768px) {
+    .homeContainer {
+        flex-direction: column;
+    }
+    .intro {
+        width: 100%;
+    }
+
+    .ck {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .homeContainer {
+        padding: 10px;
+    }
+    .intro h1 {
+        font-size: 75px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+
+
