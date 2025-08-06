@@ -52,6 +52,10 @@
     flex-direction: column;
 }
 
+.text h1 {
+    margin-bottom: 0;
+}
+
 .text p {
     width: 80%;
 }
@@ -115,6 +119,9 @@
     }
     .intro h1 {
         font-size: 75px;
+    }
+    .ck {
+        margin-right: 0;
     }
     h1 {
         font-size: 24px;

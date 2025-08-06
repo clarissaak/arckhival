@@ -1,5 +1,4 @@
 import './styles/Work.css';
-import weddingVideo from '../assets/weddingapp.mp4';
 
 const Work = () => {
     return (
@@ -11,8 +10,8 @@ const Work = () => {
         </div>
         <div className='project'>
           <div className='vidContainer'>
-            <video autoPlay muted controls playsInline>
-                <source src={weddingVideo} type='video/mp4'/>
+            <video className='wedding' autoPlay loop muted controls playsInline>
+                <source src={require('../assets/weddingapp.mp4')} type='video/mp4'/>
                 Your browser does not support the video tag.
             </video>
           </div>
@@ -21,7 +20,7 @@ const Work = () => {
               <h1>S & R</h1>
               <h2>2025</h2>
             </div>
-            <p>is a website developed for my brother's wedding, using Google Cloud and Figma.
+            <p><span style={{fontStyle:'italic'}}>S & R</span> is a website developed for my brother's wedding, which uses Google Cloud and Figma.
               The site features a clean design, intuitive navigation, and interactive elements 
               that enhance user engagement. Users are also able to view information about the event, 
               including the reception menu, seating chart, and the various activities that will take place during the day.
@@ -44,8 +43,77 @@ const Work = () => {
             </p>
           </div>
           <div className='vidContainer'>
-            <video autoPlay muted controls playsInline>
-                <source src={weddingVideo} type='video/mp4'/>
+            <video className='rsvp' autoPlay loop muted controls playsInline>
+                <source src={require('../assets/rsvp.mp4')} type='video/mp4'/>
+                Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+        <div className='project'>
+          <div className='vidContainer'>
+            <video className='sleep' autoPlay loop muted controls playsInline>
+                <source src={require('../assets/sleep.mp4')} type='video/mp4'/>
+                Your browser does not support the video tag.
+            </video>
+          </div>
+          <div className='text'>
+            <div className='header'>
+              <h1>Sleep Strikers</h1>
+              <h2>2024</h2>
+            </div>
+            <p>Made using Figma, <span style={{fontStyle:'italic'}}>Sleep Strikers</span> is a high-fidelity 
+              prototype my team and I developed for undergraduate students to use to improve their sleeping habits. 
+              Our prototype employs gamification and asynchronous communication to cater to our 
+              target group. During the development process, we also used Figma to perform a hierarchal task analysis 
+              and create low-fidelity prototypes.
+            </p>
+          </div>
+        </div>
+        <div className='project'>
+          <div className='text'>
+            <div className='header'>
+              <h1>Creature Generation</h1>
+              <h2>2024</h2>
+            </div>
+            <p>This project focused on the generation of various creatures in Unity3D. The creatures I chose to create are 
+              based off of <span style={{fontStyle:'italic'}}>Chiikawa</span>  characters. The meshes were made for each body part,
+              some using loop subdivision to create smooth, curved surfaces. 
+            </p>
+          </div>
+          <div className='vidContainer'>
+            <img className='chiikawa' src={require('../assets/chiikawa.png')}/>
+          </div>
+        </div>
+        <div className='project'>
+          <div className='vidContainer'>
+            <img className='map' src={require('../assets/map.png')}/>
+          </div>
+          <div className='text'>
+            <div className='header'>
+              <h1>Street Generation</h1>
+              <h2>2024</h2>
+            </div>
+            <p> Using Unity3D and C#, individual meshes were made for 5 street types: straights, 
+              turns, 4-way intersections, T-intersections, and dead ends. I also utilized Perlin noise for street texture and 
+              the depth first search algorithm to ensure street connectivity. The streets were randomly generated using a public 
+              seed, providing various street layouts. 
+            </p>
+          </div>
+        </div>
+        <div className='project'>
+          <div className='text'>
+            <div className='header'>
+              <h1>Sea Railway</h1>
+              <h2>2024</h2>
+            </div>
+            <p> With a partner, this remake of the sea railway scene from “Spirited Away” was made to express our final project theme: 
+              Journey. This project utilizes techniques we have learned throughout the semester, including a sky sphere, the Worley noise 
+              function, Phong shading models, and ray tracing.  
+            </p>
+          </div>
+          <div className='vidContainer'>
+            <video className='railway' autoPlay loop muted playsInline>
+                <source src={require('../assets/final.mp4')} type='video/mp4'/>
                 Your browser does not support the video tag.
             </video>
           </div>

@@ -62,14 +62,55 @@
     border-radius: 20px;
 }
 
-.project video {
-    width: 300px;
-    height: 535px;
+.project video,
+.project img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
 }
 
+.project video:hover,
+.project img:hover {
+    transform: scale(1.02);
+}
+
+.project .wedding {
+    max-width: 85%;
+    aspect-ratio: 6/11; 
+}
+
+.project .rsvp {
+    max-width: 90%;
+    aspect-ratio: 16/8; 
+}
+
+.project .sleep {
+    max-width: 80%;
+    border-radius: 50px;
+    aspect-ratio: 8/16; 
+}
+
+.project .chiikawa {
+    max-width: 70%;
+    aspect-ratio: 6/4; 
+}
+
+.project .map {
+    max-width: 70%;
+    aspect-ratio: 1/1; 
+}
+
+.project .railway {
+    max-width: 90%;
+    aspect-ratio: 16/9; 
+}
+
+
 .project .header {
+    padding: 0;
     align-items: baseline;
     margin-bottom: 0;
 }
@@ -86,32 +127,143 @@
     width: 100%;
 }
 
+.project .text {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-@media (max-width: 768px) {
-    .homeContainer {
-        flex-direction: column;
-    }
-    .intro {
-        width: 100%;
-    }
 
-    .ck {
-        width: 100%;
+
+@media (max-width: 1200px) {
+    .workContainer {
+        padding: 20px;
+    }
+    .workIntro h1 {
+        font-size: 70px;
+    }
+    .workIntro p {
+        font-size: 18px;
+    }
+    .vidContainer {
+        height: 450px;
+    }
+    .project video,
+    .project img {
+        max-width: 95%;
+        max-height: 95%;
     }
 }
 
+
+@media (max-width: 900px) {
+    .workIntro h1 {
+        font-size: 50px;
+        width: 100%;
+    }
+    .workIntro p {
+        width: 100%;
+        font-size: 18px;
+        margin-top: 0;
+    }
+    .project {
+        flex-direction: column;
+        gap: 30px;
+        margin: 8% 0;
+    }
+    .vidContainer {
+        width: 100%;
+        height: 400px;
+    }
+    .project .text {
+        width: 100%;
+        order: 2;
+    }
+    .project:nth-child(even) .text {
+        order: 1;
+    }
+    .project:nth-child(even) .vidContainer {
+        order: 2;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .workContainer {
+        padding: 15px;
+    }
+    .workIntro {
+        flex-direction: column;
+    }
+    .workIntro h1 {
+        font-size: 60px;
+    }
+    .vidContainer {
+        height: 350px;
+    }
+    .project video,
+    .project img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .project h1 {
+        font-size: 28px;
+    }
+    .project h2 {
+        font-size: 20px;
+    }
+    .project p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
+
+
 @media (max-width: 480px) {
-    .homeContainer {
+    .workContainer {
         padding: 10px;
     }
-    .intro h1 {
-        font-size: 75px;
+    .workIntro h1 {
+        font-size: 45px;
+        line-height: 1.1;
     }
-    h1 {
+    .workIntro p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    .project {
+        margin: 10% 0;
+        gap: 20px;
+    }
+    .vidContainer {
+        height: 250px;
+    }
+    .project video,
+    .project img {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 10px;
+    }
+   
+    .project h1 {
         font-size: 24px;
     }
-    p {
-        font-size: 16px;
+    .project h2 {
+        font-size: 18px;
+    }
+    .project p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+    .project .header {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .project .sleep {
+        border-radius: 25px;
     }
 }
 
