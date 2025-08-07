@@ -81,12 +81,12 @@ const Work = () => {
             </p>
           </div>
           <div className='vidContainer'>
-            <img className='chiikawa' src={require('../assets/chiikawa.png')}/>
+            <img className='chiikawa' src={require('../assets/chiikawa.png')} alt='img'/>
           </div>
         </div>
         <div className='project'>
           <div className='vidContainer'>
-            <img className='map' src={require('../assets/map.png')}/>
+            <img className='map' src={require('../assets/map.png')} alt='img'/>
           </div>
           <div className='text'>
             <div className='header'>
@@ -106,8 +106,8 @@ const Work = () => {
               <h1>Sea Railway</h1>
               <h2>2024</h2>
             </div>
-            <p> With a partner, this remake of the sea railway scene from “Spirited Away” was made to express our final project theme: 
-              Journey. This project utilizes techniques we have learned throughout the semester, including a sky sphere, the Worley noise 
+            <p> With a partner, I used GLSL to recreate the sea railway scene from “Spirited Away” to express our final project theme: 
+              Journey. This project utilizes techniques we have learned throughout the Computer Graphics course, including a sky sphere, the Worley noise 
               function, Phong shading models, and ray tracing.  
             </p>
           </div>
@@ -116,6 +116,23 @@ const Work = () => {
                 <source src={require('../assets/final.mp4')} type='video/mp4'/>
                 Your browser does not support the video tag.
             </video>
+          </div>
+        </div>
+        <div className='project'>
+          <div className='vidContainer'>
+            <video className='subdivision' autoPlay loop muted playsInline>
+                <source src={require('../assets/subdivision.mp4')} type='video/mp4'/>
+                Your browser does not support the video tag.
+            </video>
+          </div>
+          <div className='text'>
+            <div className='header'>
+              <h1>Loop Subdivision</h1>
+              <h2>2024</h2>
+            </div>
+            <p>Loop subdivision is a method of smoothing triangle meshes. For this assignment, I had to develop my own 
+              implementation of the loop subdivision algorithm in C. 
+            </p>
           </div>
         </div>
     </div>

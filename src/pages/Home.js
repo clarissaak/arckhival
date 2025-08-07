@@ -41,7 +41,7 @@ const Home = () => {
     <div className="homeContainer">
         <div className='intro'>
             <h1>ar<span className="initials">ck</span>hival</h1>
-            <p>is an archive of all of my previous works as a student at the Georgia Institute of Technology.
+            <p>is an archive of all of my previous works as a Computer Science student.
                 Arckhival primarily showcases my experience with Figma, Computer Graphics, and UI Software.</p>
         </div>
         <div className='ck'>
