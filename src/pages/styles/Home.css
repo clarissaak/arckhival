@@ -126,6 +126,21 @@
     filter: none;
 }
 
+.emailContainer {
+    margin-top: 0;
+    margin-right: 10px;
+    height: 20px;
+    width: 27px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg');
+    background-size: cover;
+    filter: grayscale(100%);
+    transition: filter 0.2s ease-in-out;
+}
+
+.emailContainer:hover {
+    filter: grayscale(0);
+}
+
 @media (max-width: 900px) {
     .intro h1 {
         font-size: 85px;

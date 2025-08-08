@@ -2,7 +2,7 @@ import './App.css';
 import Home from './pages/Home';
 import Work from './pages/Work.js';
 import About from './pages/About.js';
-import {BrowserRouter as Router, Routes, Route, NavLink} from "react-router-dom";
+import {HashRouter as Router, Routes, Route, NavLink} from "react-router-dom";
 
 function App() {
   return (
