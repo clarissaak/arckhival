@@ -40,7 +40,10 @@ const Home = () => {
     return (
     <div className="homeContainer">
         <div className='intro'>
-            <h1>ar<span className="initials">ck</span>hival</h1>
+            <div className='header'>
+                <h1>ar<span className="initials">ck</span>hival</h1>
+                <img src={require('../assets/stars.png')} className='stars' alt='stars'/>
+            </div>
             <p>is an archive of all of my previous works as a Computer Science student.
                 Arckhival primarily showcases my experience with Figma, Computer Graphics, and UI Software.</p>
         </div>

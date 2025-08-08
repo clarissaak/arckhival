@@ -11,20 +11,28 @@
     gap: 5%;
 }
 
+.workIntro .header {
+    width: 60%;
+    display: flex;
+    justify-content: left;
+    gap: 1%;
+}
 .workIntro h1 {
     font-style: normal;
     font-size: 100px;
     margin-bottom: 0px;
     margin-top: 0;
-    width: 50%;
+    width: fit-content;
+}
+
+.workIntro img {
+    aspect-ratio: 1 / 1;
+    max-width: 10%;
 }
 
 .workIntro h1 span.initials {
     font-style: italic;
-    background-image: url('../../assets/halftone.svg');
-    color: transparent;
-    background-size: 100% 100%;
-    background-clip: text; 
+    color: white;
     -webkit-text-stroke: 0.5px black;
 }
 
@@ -64,6 +72,8 @@
 
 .project video,
 .project img {
+    max-width: 90%;
+    max-height: 90%;
     object-fit: contain;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -76,24 +86,24 @@
 }
 
 .project .wedding {
-    max-height: 85%;
+    max-width: 85%;
     aspect-ratio: 9/16; 
 }
 
 .project .rsvp {
     max-width: 90%;
-    aspect-ratio: 16/8; 
+    aspect-ratio: 16/9; 
 }
 
 .project .sleep {
-    max-height: 85%;
+    max-width: 80%;
     border-radius: 50px;
-    aspect-ratio: 8/16; 
+    aspect-ratio: 9/16; 
 }
 
 .project .chiikawa {
     max-width: 70%;
-    aspect-ratio: 6/4; 
+    aspect-ratio: 4/3; 
 }
 
 .project .map {
@@ -163,6 +173,8 @@
 @media (max-width: 900px) {
     .workIntro h1 {
         font-size: 50px;
+    }
+    .workIntro .header {
         width: 100%;
     }
     .workIntro p {

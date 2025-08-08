@@ -4,7 +4,10 @@ const Work = () => {
     return (
     <div className="workContainer">
         <div className='workIntro'>
+          <div className='header'>
             <h1>the ar<span className="initials">ck</span>hive</h1>
+            <img src={require('../assets/stars.png')} className='stars' alt='stars'/>
+          </div>
             <p>includes a few examples of my work, displaying moments 
               where I had fun creating and designing by myself or with others!</p>
         </div>
