@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/arckhival/static/css/main.542f0717.css",
+    "main.js": "/arckhival/static/js/main.ec531601.js",
+    "static/js/453.1ae5804b.chunk.js": "/arckhival/static/js/453.1ae5804b.chunk.js",
+    "static/media/final.mp4": "/arckhival/static/media/final.7b1e68a0e543fb5e4771.mp4",
+    "static/media/weddingapp.mp4": "/arckhival/static/media/weddingapp.a395fd8b1a1bd810cc7b.mp4",
+    "static/media/rsvp.mp4": "/arckhival/static/media/rsvp.c1aa55b5e8559d5464d9.mp4",
+    "static/media/halftone.jpg": "/arckhival/static/media/halftone.05f3a9eb1b765d819547.jpg",
+    "static/media/sleep.mp4": "/arckhival/static/media/sleep.fd453db4a7fc9f50d02f.mp4",
+    "static/media/ck1.jpeg": "/arckhival/static/media/ck1.55c39b4c63514dde6fa7.jpeg",
+    "static/media/map.png": "/arckhival/static/media/map.1ff51ec13b6a218baf0f.png",
+    "static/media/halftone2.jpg": "/arckhival/static/media/halftone2.7a8998ab35d640b38e79.jpg",
+    "static/media/subdivision.mp4": "/arckhival/static/media/subdivision.1275df7610e69b38dbf2.mp4",
+    "static/media/ck.jpeg": "/arckhival/static/media/ck.3ca02d3d731747ab662a.jpeg",
+    "static/media/chiikawa.png": "/arckhival/static/media/chiikawa.0f2192fccc69d7ea8b86.png",
+    "static/media/stars.png": "/arckhival/static/media/stars.36f09f78dc1a123b74de.png",
+    "index.html": "/arckhival/index.html",
+    "main.542f0717.css.map": "/arckhival/static/css/main.542f0717.css.map",
+    "main.ec531601.js.map": "/arckhival/static/js/main.ec531601.js.map",
+    "453.1ae5804b.chunk.js.map": "/arckhival/static/js/453.1ae5804b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.542f0717.css",
+    "static/js/main.ec531601.js"
+  ]
+}
