@@ -51,7 +51,7 @@ const Home = () => {
           <img src={require('../assets/ck1.jpeg')} className='img' alt='img'/>
           <div className='text'>
             <h1 className='title' ref={titleRef}>hello!</h1>
-            <p>I'm <span className="bold">Clarissa Kristanto</span> a recent graduate from Georgia Tech with
+            <p>I'm <span className="bold">Clarissa Kristanto</span>, a recent graduate from Georgia Tech with
             a bachelor's degree in Computer Science.</p>
             <div className='imgContainer'>
                 <a href='mailto:clarissakristanto@gmail.com'>
