@@ -4,7 +4,7 @@ const Work = () => {
     return (
     <div className="workContainer">
         <div className='workIntro'>
-          <div className='header'>
+          <div className='workHeader'>
             <h1>the ar<span className="initials">ck</span>hive</h1>
             <img src={require('../assets/stars.png')} className='stars' alt='stars'/>
           </div>

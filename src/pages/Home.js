@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import './styles/Home.css';
 
 const Home = () => {
-    const titleRef = useRef(null);
+    const typeRef = useRef(null);
 
     useEffect(() => {
       // typewriter effect for about
@@ -11,10 +11,10 @@ const Home = () => {
         let timeoutId;
 
         const typeWriter = () => {
-            if (titleRef.current && index < name.length) {
+            if (typeRef.current && index < name.length) {
                 index++;
                 let new_title = name.slice(0, index);
-                titleRef.current.innerText = new_title;
+                typeRef.current.innerText = new_title;
 
                 if (index < name.length) {
                     timeoutId = setTimeout(() => typeWriter(), 100);
@@ -22,8 +22,8 @@ const Home = () => {
             }
         };
 
-        if (titleRef.current) {
-            titleRef.current.innerText = '';
+        if (typeRef.current) {
+            typeRef.current.innerText = '';
         }
 
         // wait for 2 seconds before starting to type
@@ -40,17 +40,17 @@ const Home = () => {
     return (
     <div className="homeContainer">
         <div className='intro'>
-            <div className='header'>
+            <div className='title'>
                 <h1>ar<span className="initials">ck</span>hival</h1>
                 <img src={require('../assets/stars.png')} className='stars' alt='stars'/>
             </div>
             <p>is an archive of all of my previous works as a Computer Science student.
                 Arckhival primarily showcases my experience with Figma, Computer Graphics, and UI Software.</p>
         </div>
-        <div className='ck'>
+        <div className='ckHome'>
           <img src={require('../assets/ck1.jpeg')} className='img' alt='img'/>
           <div className='text'>
-            <h1 className='title' ref={titleRef}>hello!</h1>
+            <h1 className='hello' ref={typeRef}>hello!</h1>
             <p>I'm <span className="bold">Clarissa Kristanto</span>, a recent graduate from Georgia Tech with
             a bachelor's degree in Computer Science.</p>
             <div className='imgContainer'>

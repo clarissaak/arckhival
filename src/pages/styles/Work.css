@@ -12,23 +12,24 @@
     align-items: center;
 }
 
-.workIntro .header {
+.workIntro .workHeader {
     width: 60%;
     display: flex;
+    align-items: center;
     justify-content: left;
     gap: 1%;
 }
 .workIntro h1 {
     font-style: normal;
     font-size: 100px;
-    margin-bottom: 0px;
-    margin-top: 0;
+    margin: 0;
     width: fit-content;
 }
 
 .workIntro img {
     aspect-ratio: 1 / 1;
     max-width: 10%;
+    margin-bottom: 5%;
 }
 
 .workIntro h1 span.initials {
@@ -40,7 +41,6 @@
 .workIntro p {
     width: 40%;
     font-size: 20px;
-    margin-top: 3%;
 }
 
 .project {
@@ -171,7 +171,7 @@
     .workIntro h1 {
         font-size: 50px;
     }
-    .workIntro .header {
+    .workIntro .workHeader {
         width: 100%;
         margin-bottom: 5%;
     }
@@ -204,6 +204,9 @@
     }
     .workIntro h1 {
         font-size: 60px;
+    }
+    .project .header {
+        width: 100%;
     }
     .project h1 {
         font-size: 28px;

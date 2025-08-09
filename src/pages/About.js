@@ -40,8 +40,8 @@ const About = () => {
     return (
     <div className='aboutContainer'>
       <img src = {require('../assets/ck.jpeg')} className='ck' alt='ck'/>
-      <div className="text">
-        <h1 className='title' ref={titleRef}>hello! i'm clarissa</h1>
+      <div className="about">
+        <h1 className='aboutTitle' ref={titleRef}>hello! i'm clarissa</h1>
         <p>I’m a computer science graduate from Georgia Tech. Although I have a formal education in computer science, 
           my concentrations lie in People and Media.  Meaning, I study computer science to design and implement interfaces 
           while treating the user as the central component. <br /> <br />
