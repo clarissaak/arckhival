@@ -71,6 +71,7 @@
     content: '|';
     animation: blink 1s infinite;
     color: inherit;
+    font-weight: normal;
 }
 
 .img {

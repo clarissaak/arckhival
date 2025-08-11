@@ -6,15 +6,9 @@
 .ck {
     border-radius: 10px;
     aspect-ratio: 4/3;
-    margin-right: auto;
     max-width: 35%;
-    width: 100%;
     height: auto;
     object-fit: cover;
-}
-
-.text {
-    width: 45%;
 }
 
 .aboutTitle {
@@ -25,6 +19,7 @@
     content: '|';
     animation: blink 1s infinite;
     color: inherit;
+    font-weight: normal;
 }
 
 @keyframes blink {
@@ -102,7 +97,7 @@
         text-align: center;
     }
 
-    .text {
+    .about {
         width: 100%;
         margin-bottom: 10%;
         align-items: center;
