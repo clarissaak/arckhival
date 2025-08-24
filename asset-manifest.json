@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/arckhival/static/css/main.37882a05.css",
-    "main.js": "/arckhival/static/js/main.1192aaba.js",
+    "main.js": "/arckhival/static/js/main.484ae521.js",
     "static/js/453.1ae5804b.chunk.js": "/arckhival/static/js/453.1ae5804b.chunk.js",
     "static/media/final.mp4": "/arckhival/static/media/final.7b1e68a0e543fb5e4771.mp4",
-    "static/media/weddingapp.mp4": "/arckhival/static/media/weddingapp.2cd72d56138f34096a45.mp4",
+    "static/media/weddingapp.mp4": "/arckhival/static/media/weddingapp.91151a1b4379b495eebe.mp4",
     "static/media/halftone.jpg": "/arckhival/static/media/halftone.05f3a9eb1b765d819547.jpg",
     "static/media/rsvp.mp4": "/arckhival/static/media/rsvp.02d94f41e3fb0cd0f2db.mp4",
     "static/media/sleep.mp4": "/arckhival/static/media/sleep.1dd74a0cd9d36c9ffa37.mp4",
@@ -18,11 +18,11 @@
     "static/media/star.png": "/arckhival/static/media/star.682f1962ead21b6ae83c.png",
     "index.html": "/arckhival/index.html",
     "main.37882a05.css.map": "/arckhival/static/css/main.37882a05.css.map",
-    "main.1192aaba.js.map": "/arckhival/static/js/main.1192aaba.js.map",
+    "main.484ae521.js.map": "/arckhival/static/js/main.484ae521.js.map",
     "453.1ae5804b.chunk.js.map": "/arckhival/static/js/453.1ae5804b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.37882a05.css",
-    "static/js/main.1192aaba.js"
+    "static/js/main.484ae521.js"
   ]
 }
