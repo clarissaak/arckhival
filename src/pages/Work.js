@@ -67,8 +67,8 @@ const Work = () => {
             <p>Made using Figma, <span style={{fontStyle:'italic'}}>Sleep Strikers</span> is a high-fidelity 
               prototype my team and I developed for undergraduate students to use to improve their sleeping habits. 
               Our prototype employs gamification and asynchronous communication to cater to our 
-              target group. During the development process, we also used Figma to perform a hierarchal task analysis 
-              and create low-fidelity prototypes.
+              target group. During the development process, we also used Figma to perform a hierarchal task analysis, 
+              create user flows, and design low-fidelity prototypes.
             </p>
           </div>
         </div>
