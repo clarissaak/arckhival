@@ -43,8 +43,9 @@ const About = () => {
       <div className="about">
         <h1 className='aboutTitle' ref={titleRef}>hello! i'm clarissa</h1>
         <p>I’m a computer science graduate from Georgia Tech. Although I have a formal education in computer science, 
-          my concentrations lie in People and Media.  Meaning, I study computer science to design and implement interfaces 
-          while treating the user as the central component. <br /> <br />
+          my concentrations lie in People and Media. Those concentrations reflect my interest in building user-centered 
+          software and thinking creatively about how systems can enable expression and engagement.
+          <br /> <br />
           I'm passionate about learning and creating software that makes an improvement in other people’s lives. 
           Please feel free to explore my work and contact me if you have any questions or concerns!</p>
         <div className='imgContainer'>

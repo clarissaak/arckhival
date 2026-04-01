@@ -6,17 +6,19 @@ const Work = () => {
         <div className='workIntro'>
           <div className='workHeader'>
             <h1>the ar<span className="initials">ck</span>hive</h1>
-            <img src={require('../assets/stars.png')} className='stars' alt='stars'/>
+            <img src={require('../assets/star.png')} className='stars' alt='stars'/>
           </div>
             <p>includes a few examples of my work, displaying moments 
               where I had fun creating and designing by myself or with others!</p>
         </div>
         <div className='project'>
           <div className='vidContainer'>
-            <video className='wedding' autoPlay loop muted controls playsInline>
-                <source src={require('../assets/weddingapp.mp4')} type='video/mp4'/>
-                Your browser does not support the video tag.
-            </video>
+            <div className='mediaWrapper'>
+              <video className='wedding' autoPlay loop muted controls playsInline>
+                  <source src={require('../assets/weddingapp.mp4')} type='video/mp4'/>
+                  Your browser does not support the video tag.
+              </video>
+            </div>
           </div>
           <div className='text'>
             <div className='header'>
@@ -46,18 +48,22 @@ const Work = () => {
             </p>
           </div>
           <div className='vidContainer'>
-            <video className='rsvp' autoPlay loop muted controls playsInline>
-                <source src={require('../assets/rsvp.mp4')} type='video/mp4'/>
-                Your browser does not support the video tag.
-            </video>
+            <div className='mediaWrapper'>
+              <video className='rsvp' autoPlay loop muted controls playsInline>
+                  <source src={require('../assets/rsvp.mp4')} type='video/mp4'/>
+                  Your browser does not support the video tag.
+              </video>
+              </div>
           </div>
         </div>
         <div className='project'>
           <div className='vidContainer'>
-            <video className='sleep' autoPlay loop muted controls playsInline>
-                <source src={require('../assets/sleep.mp4')} type='video/mp4'/>
-                Your browser does not support the video tag.
-            </video>
+            <div className='mediaWrapper'>
+              <video className='sleep' autoPlay loop muted controls playsInline>
+                  <source src={require('../assets/sleep.mp4')} type='video/mp4'/>
+                  Your browser does not support the video tag.
+              </video>
+              </div>
           </div>
           <div className='text'>
             <div className='header'>
@@ -84,12 +90,16 @@ const Work = () => {
             </p>
           </div>
           <div className='vidContainer'>
-            <img className='chiikawa' src={require('../assets/chiikawa.png')} alt='img'/>
+            <div className='mediaWrapper'>
+              <img className='chiikawa' src={require('../assets/chiikawa.png')} alt='img'/>
+            </div>
           </div>
         </div>
         <div className='project'>
           <div className='vidContainer'>
-            <img className='map' src={require('../assets/map.png')} alt='img'/>
+            <div className='mediaWrapper'>
+              <img className='map' src={require('../assets/map.png')} alt='img'/>
+            </div>
           </div>
           <div className='text'>
             <div className='header'>
@@ -115,18 +125,22 @@ const Work = () => {
             </p>
           </div>
           <div className='vidContainer'>
-            <video className='railway' autoPlay loop muted playsInline>
-                <source src={require('../assets/final.mp4')} type='video/mp4'/>
-                Your browser does not support the video tag.
-            </video>
+            <div className='mediaWrapper'>
+              <video className='railway' autoPlay loop muted playsInline>
+                  <source src={require('../assets/final.mp4')} type='video/mp4'/>
+                  Your browser does not support the video tag.
+              </video>
+            </div>
           </div>
         </div>
         <div className='project'>
           <div className='vidContainer'>
-            <video className='subdivision' autoPlay loop muted playsInline>
-                <source src={require('../assets/subdivision.mp4')} type='video/mp4'/>
-                Your browser does not support the video tag.
-            </video>
+            <div className='mediaWrapper'>
+              <video className='subdivision' autoPlay loop muted playsInline>
+                  <source src={require('../assets/subdivision.mp4')} type='video/mp4'/>
+                  Your browser does not support the video tag.
+              </video>
+            </div>
           </div>
           <div className='text'>
             <div className='header'>

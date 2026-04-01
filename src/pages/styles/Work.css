@@ -21,9 +21,10 @@
 }
 .workIntro h1 {
     font-style: normal;
-    font-size: 100px;
+    font-size: 95px;
     margin: 0;
     width: fit-content;
+    font-family: "Shrikhand";
 }
 
 .workIntro img {
@@ -34,7 +35,7 @@
 
 .workIntro h1 span.initials {
     font-style: italic;
-    color: white;
+    color: transparent;
     -webkit-text-stroke: 0.5px black;
 }
 
@@ -55,21 +56,45 @@
 
 .vidContainer {
     display: flex;
-    background-size: 100% 100%;
     width: 50%;
     height: 585px;
     justify-content: center;
     align-items: center;
 }
 
-.vidContainer:nth-child(odd) {
-    background-image: url('../../assets/halftone.jpg');
+.mediaWrapper {
+    position: relative;
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
 }
 
-.vidContainer:nth-child(even) {
-    background-image: url('../../assets/halftone2.jpg');
-    border-radius: 20px;
+/*
+.mediaWrapper::before,
+.mediaWrapper::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-image: url('../../assets/washi1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    z-index: 3;
 }
+
+
+.mediaWrapper::before {
+    top: -10px;
+}
+
+.mediaWrapper::after {
+    bottom: -10px;
+    transform: rotate(180deg);
+}
+*/
 
 .project video,
 .project img {
@@ -87,8 +112,8 @@
 }
 
 .project .wedding {
-    max-width: 85%;
-    aspect-ratio: 8.85/16; 
+    max-width: 47%;
+    aspect-ratio: 8.7/16; 
 }
 
 .project .rsvp {
@@ -97,7 +122,7 @@
 }
 
 .project .sleep {
-    max-width: 80%;
+    max-width: 50%;
     border-radius: 50px;
     aspect-ratio: 8/16; 
 }

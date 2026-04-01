@@ -1,5 +1,9 @@
 .App {
-    margin: 0 100px;
+    padding: 0 100px;
+    background-image: url('assets/paper.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
 }
 
 .header {
@@ -7,7 +11,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    margin: 3% 0;
+    padding: 3.2% 0;
 }
 
 .homeLink {
@@ -15,11 +19,12 @@
     color: black;
     font-size: 25px;
     font-weight: bold;
+    font-family: "Shrikhand";
 }
 
 .homeLink span.initials {
     font-style: italic;
-    color: white;
+    color: whitesmoke;
     -webkit-text-stroke: 0.25px black;
 }
 
@@ -32,7 +37,8 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    border: 1px solid lightgray;
+    background-color: whitesmoke;
+    border: 2.5px solid #b1d6da;
     padding: 0 15px;
     border-radius: 50px;
     display: flex;

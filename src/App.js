@@ -8,16 +8,18 @@ function App() {
   return (
     <Router>
       <div className='App'>
-        <div className="header">
-          <div className='homeLinkContainer'>
-            <NavLink to='/' className='homeLink'>
-                ar<span className="initials">ck</span>hival
-                <img src={require('./assets/star.png')} className='star' alt='stars'/>
-            </NavLink>
-          </div>
-          <div className='navBar'>
-            <NavLink to='/work' className={({ isActive }) => isActive ? 'active' : ''}>Work</NavLink>
-            <NavLink to='/about' className={({ isActive }) => isActive ? 'active' : ''}>About</NavLink>
+        <div className='body'> 
+          <div className="header">
+            <div className='homeLinkContainer'>
+              <NavLink to='/' className='homeLink'>
+                  ar<span className="initials">ck</span>hival
+                  <img src={require('./assets/star.png')} className='star' alt='stars'/>
+              </NavLink>
+            </div>
+            <div className='navBar'>
+              <NavLink to='/work' className={({ isActive }) => isActive ? 'active' : ''}>Work</NavLink>
+              <NavLink to='/about' className={({ isActive }) => isActive ? 'active' : ''}>About</NavLink>
+            </div>
           </div>
         </div>
         <Routes>
