@@ -25,7 +25,8 @@ const Work = () => {
               <h1>S & R</h1>
               <h2>2025</h2>
             </div>
-            <p><span style={{fontStyle:'italic'}}>S & R</span> is a website developed for my brother's wedding, which uses Google Cloud and Figma.
+            <p><span style={{fontStyle:'italic'}}>S & R</span> is a website developed for my brother's wedding, which was developed using 
+              Cloud Shell, Google Cloud Platform, and Figma.
               The site features a clean design, intuitive navigation, and interactive elements 
               that enhance user engagement. Users are also able to view information about the event, 
               including the reception menu, seating chart, and the various activities that will take place during the day.
