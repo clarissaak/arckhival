@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    padding: 0 0;
 }
 
 .intro {
@@ -55,6 +56,7 @@
 }
 
 .intro p {
+    margin-top: 0;
     width: 80%;
     font-size: 20px;
 }
@@ -66,6 +68,10 @@
     width: 35%;
     height: 30%;
     gap: 20px;
+}
+
+.hello {
+    font-family: "Shrikhand";
 }
 
 .hello::after {
@@ -157,7 +163,7 @@
     }
     .intro {
         width: 100%;
-        margin-bottom: 5%;
+        padding-bottom: 5%;
     }
     .intro h1 {
         font-size: 85px;
@@ -172,14 +178,11 @@
 }
 
 @media (max-width: 480px) {
-    .homeContainer {
-        padding: 10px;
-    }
     .intro h1 {
-        font-size: 70px;
+        font-size: 55px;
     }
     .ckHome {
-        margin-right: 0;
+        padding-right: 0;
     }
     h1 {
         font-size: 24px;

@@ -21,7 +21,7 @@
 }
 .workIntro h1 {
     font-style: normal;
-    font-size: 95px;
+    font-size: 90px;
     margin: 0;
     width: fit-content;
     font-family: "Shrikhand";
@@ -30,7 +30,7 @@
 .workIntro img {
     aspect-ratio: 1 / 1;
     max-width: 10%;
-    margin-bottom: 5%;
+    padding-bottom: 5%;
 }
 
 .workIntro h1 span.initials {
@@ -51,7 +51,7 @@
     border-radius: 10px;
     align-items: center;
     gap: 5%;
-    margin: 5% 0
+    padding: 5% 0
 }
 
 .vidContainer {
@@ -151,7 +151,7 @@
 .project .header {
     padding: 0;
     align-items: baseline;
-    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .project h1 {
@@ -171,7 +171,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 
@@ -181,7 +181,7 @@
         padding: 20px;
     }
     .workIntro h1 {
-        font-size: 70px;
+        font-size: 60px;
     }
     .workIntro p {
         font-size: 18px;
@@ -194,7 +194,7 @@
 
 @media (max-width: 900px) {
     .workIntro h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
     .workIntro .workHeader {
         width: 100%;
@@ -208,7 +208,7 @@
     .project {
         flex-direction: column;
         gap: 30px;
-        margin: 8% 0;
+        padding: 8% 0;
     }
     .vidContainer {
         width: 100%;
@@ -251,7 +251,7 @@
         padding: 10px;
     }
     .workIntro h1 {
-        font-size: 45px;
+        font-size: 40px;
         line-height: 1.1;
     }
     .workIntro p {
@@ -262,7 +262,7 @@
         height: 350px;
     }
     .project {
-        margin: 5% 0;
+        padding: 5% 0;
         gap: 20px;
     }
     .project video,

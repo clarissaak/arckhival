@@ -13,6 +13,8 @@
 
 .aboutTitle {
     position: relative;
+    font-family: "Shrikhand";
+    font-size: xx-large;
 }
 
 .aboutTitle::after {

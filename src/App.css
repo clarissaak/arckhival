@@ -1,5 +1,5 @@
 .App {
-    padding: 0 100px;
+    padding: 0 8%;
     background-image: url('assets/paper.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -30,7 +30,7 @@
 
 .homeLink .star {
     max-width: 5%;
-    margin-bottom: 0.5%;
+    padding-bottom: 0.5%;
 }
 
 .navBar {
@@ -46,7 +46,7 @@
 
 .navBar a {
     padding: 15px;
-    margin-right: auto;
+    padding-right: auto;
     text-decoration: none;
     color: black;
     font-weight: normal;
@@ -63,12 +63,6 @@
 }
 
 
-@media (max-width: 1024px) {
-    .App {
-      margin: 0 5%;
-    }
-}
-
 @media (max-width: 500px) {
     .navBar {
         position: static;
@@ -78,5 +72,9 @@
 
     .header {
         justify-content: space-between;
+    }
+
+    .homeLink .star {
+        max-width: 10%;
     }
 }
