@@ -177,9 +177,6 @@
 
 
 @media (max-width: 1200px) {
-    .workContainer {
-        padding: 20px;
-    }
     .workIntro h1 {
         font-size: 60px;
     }
