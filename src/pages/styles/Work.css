@@ -218,9 +218,6 @@
 
 
 @media (max-width: 768px) {
-    .workContainer {
-        padding: 15px;
-    }
     .workIntro {
         flex-direction: column;
     }
@@ -245,7 +242,7 @@
 
 @media (max-width: 480px) {
     .workContainer {
-        padding: 10px;
+        padding-top: 10px;
     }
     .workIntro h1 {
         font-size: 40px;

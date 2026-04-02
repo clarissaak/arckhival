@@ -17,7 +17,7 @@
 .homeLink {
     text-decoration: none;
     color: black;
-    font-size: 25px;
+    font-size: x-large;
     font-weight: bold;
     font-family: "Shrikhand";
 }
@@ -63,6 +63,12 @@
 
 
 @media (max-width: 500px) {
+    .App {
+        padding-left: 10%;
+    }
+    .homeLink {
+        font-size: large;
+    }
     .navBar {
         position: static;
         transform: none;
