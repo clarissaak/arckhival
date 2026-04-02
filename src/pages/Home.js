@@ -54,7 +54,7 @@ const Home = () => {
             <p>I'm <span className="bold">Clarissa Kristanto</span>, a recent graduate from Georgia Tech with
             a bachelor's degree in Computer Science.</p>
             <div className='imgContainer'>
-                <a href='mailto:clarissakristanto@gmail.com'>
+                <a href='mailto:clarissaakristanto@gmail.com'>
                   <div className="emailContainer"/>
                 </a>
                 <a href='https://linkedin.com/in/clarissa-kristanto/' target='_blank' rel="noreferrer">

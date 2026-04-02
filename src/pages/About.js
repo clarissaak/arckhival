@@ -49,7 +49,7 @@ const About = () => {
           I'm passionate about learning and creating software that makes an improvement in other people’s lives. 
           Please feel free to explore my work and contact me if you have any questions or concerns!</p>
         <div className='imgContainer'>
-          <a href='mailto:clarissakristanto@gmail.com'>
+          <a href='mailto:clarissaakristanto@gmail.com'>
             <div className="emailContainer"/>
           </a>
           <a href='https://linkedin.com/in/clarissa-kristanto/' target='_blank' rel="noreferrer">
