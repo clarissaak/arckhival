@@ -34,7 +34,6 @@
 }
 
 .workIntro h1 span.initials {
-    font-style: italic;
     color: transparent;
     -webkit-text-stroke: 0.5px black;
 }

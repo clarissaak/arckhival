@@ -33,7 +33,6 @@
 }
 
 .intro h1 span.initials {
-    font-style: italic;
     color: whitesmoke;
     -webkit-text-stroke: 0.5px black;
     transition: transform 0.3s ease;
@@ -49,9 +48,6 @@
 .intro img {
     width: 90%;
     height: auto;
-    margin-top: -8%;
-    margin-bottom: -8%;
-
 }
 
 .intro p {
