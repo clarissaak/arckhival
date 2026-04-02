@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/arckhival/static/css/main.edf22a6f.css",
-    "main.js": "/arckhival/static/js/main.8849189b.js",
+    "main.js": "/arckhival/static/js/main.a3c294b2.js",
     "static/js/453.1ae5804b.chunk.js": "/arckhival/static/js/453.1ae5804b.chunk.js",
     "static/media/final.mp4": "/arckhival/static/media/final.7b1e68a0e543fb5e4771.mp4",
     "static/media/weddingapp.mp4": "/arckhival/static/media/weddingapp.91151a1b4379b495eebe.mp4",
@@ -15,11 +15,11 @@
     "static/media/chiikawa.png": "/arckhival/static/media/chiikawa.0f2192fccc69d7ea8b86.png",
     "index.html": "/arckhival/index.html",
     "main.edf22a6f.css.map": "/arckhival/static/css/main.edf22a6f.css.map",
-    "main.8849189b.js.map": "/arckhival/static/js/main.8849189b.js.map",
+    "main.a3c294b2.js.map": "/arckhival/static/js/main.a3c294b2.js.map",
     "453.1ae5804b.chunk.js.map": "/arckhival/static/js/453.1ae5804b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.edf22a6f.css",
-    "static/js/main.8849189b.js"
+    "static/js/main.a3c294b2.js"
   ]
 }
