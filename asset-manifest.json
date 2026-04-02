@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/arckhival/static/css/main.b62f970f.css",
+    "main.css": "/arckhival/static/css/main.fe3931de.css",
     "main.js": "/arckhival/static/js/main.8849189b.js",
     "static/js/453.1ae5804b.chunk.js": "/arckhival/static/js/453.1ae5804b.chunk.js",
     "static/media/final.mp4": "/arckhival/static/media/final.7b1e68a0e543fb5e4771.mp4",
@@ -14,12 +14,12 @@
     "static/media/ck.jpeg": "/arckhival/static/media/ck.3ca02d3d731747ab662a.jpeg",
     "static/media/chiikawa.png": "/arckhival/static/media/chiikawa.0f2192fccc69d7ea8b86.png",
     "index.html": "/arckhival/index.html",
-    "main.b62f970f.css.map": "/arckhival/static/css/main.b62f970f.css.map",
+    "main.fe3931de.css.map": "/arckhival/static/css/main.fe3931de.css.map",
     "main.8849189b.js.map": "/arckhival/static/js/main.8849189b.js.map",
     "453.1ae5804b.chunk.js.map": "/arckhival/static/js/453.1ae5804b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b62f970f.css",
+    "static/css/main.fe3931de.css",
     "static/js/main.8849189b.js"
   ]
 }
